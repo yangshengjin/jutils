@@ -1,0 +1,38 @@
+{
+  "name": "jutils",
+  "version": "1.0.0",
+  "description": "javascript commom utils\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[n",
+  "main": "dist/jutils.min.js",
+  "scripts": {
+    "build": "node script/build.js",
+    "test": "node script/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/yangshengjin/jutils.git"
+  },
+  "keywords": [
+    "utils",
+    "jutils",
+    "common"
+  ],
+  "author": "ysjin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yangshengjin/jutils/issues"
+  },
+  "homepage": "https://github.com/yangshengjin/jutils#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "chalk": "^2.3.0",
+    "copy": "^0.3.1",
+    "koa": "^2.4.1",
+    "koa-static": "^4.0.2",
+    "open": "0.0.5",
+    "ora": "^1.3.0",
+    "rimraf": "^2.6.2",
+    "webpack": "^3.8.1"
+  }
+}
