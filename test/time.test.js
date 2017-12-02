@@ -1,3 +1,6 @@
+const assert = require('power-assert')
+const expect = require('chai').expect
+const jutils = require('../dist/jutils.min.js')
 describe('Time API:', function () {
   describe('#calculation()', function () {
     it(`jutils.calculation(2017-11-20,last) should return 2017-11-19`, function () {
@@ -21,8 +24,8 @@ describe('Time API:', function () {
     it(`jutils.compareDate(2017-11-01) should return false`, function () {
       assert.notEqual(jutils.compareDate('2016-11-01'))
     })
-    it(`jutils.compareDate(2017-11-21) should return true`, function () {
-      assert(jutils.compareDate('2017-11-21'))
+    it(`jutils.compareDate(2017-11-22) should return true`, function () {
+      assert(jutils.compareDate('2017-11-22'))
     })
     it(`jutils.compareDate(2018-11-30) should return true`, function () {
       assert(jutils.compareDate('2018-11-30'))

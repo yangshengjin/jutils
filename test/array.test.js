@@ -1,3 +1,6 @@
+const assert = require('power-assert')
+const expect = require('chai').expect
+const jutils = require('../dist/jutils.min.js')
 describe('Array API:', function () {
   describe('#arrayEqual()', function () {
     it(`jutils.arrayEqual([0,2,3],[1,2,3]) should return false`, function () {
